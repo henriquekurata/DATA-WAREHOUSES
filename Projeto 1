@@ -1478,11 +1478,6 @@ resource "aws_redshift_cluster" "redshift_cluster" {
 Acessando o Redshift: Redshift-cluster > Query data > Conectar ao banco de dados com nome e senha do arquivo main.tf
 
 
-
-
-
-
-
 # Deploy do DW na AWS com Terraform
 
 - Ferramentas:
@@ -1492,7 +1487,6 @@ Docker, Terraform, AWS Redshift, AWS CLI, SQL.
 Já estão listados junto com os comandos.
 
 - Comandos:
-
 1- Acesse sua conta AWS e crie um bucket na região de Ohio.
 
 2- Dentro do bucket crie uma pasta chamada dados.
@@ -1809,7 +1803,7 @@ iam_roles = [aws_iam_role.redshift_role.arn]
 
 16- Acesse o editor de consultas do Redshift e confira se os dados foram carregados.
 
-20- Quando terminar o trabalho, destrua a infra com o comando: terraform destroy.
+17- Quando terminar o trabalho, destrua a infra com o comando: terraform destroy.
 
 
 
